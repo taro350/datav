@@ -33,4 +33,4 @@ export const data = [
       title: "Apollo GraphQL",
       url: "https://apollographql.com",
     },
-  ];
+  ]; 

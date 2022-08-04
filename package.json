@@ -2,6 +2,7 @@
   "name": "datav",
   "version": "0.1.0",
   "private": true,
+  
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -10,18 +11,25 @@
   },
   "dependencies": {
     "@apollo/client": "^3.6.9",
-    "@types/node": "^18.6.3",
+    "@prisma/client": "^4.1.1",
     "@types/react": "^18.0.15",
     "leaflet": "^1.8.0",
     "next": "12.2.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "typescript": "^4.7.4"
+    "tsconfig-paths": "^4.0.0"
   },
   "devDependencies": {
     "@types/leaflet": "^1.7.11",
+    "@types/node": "^18.6.3",
     "eslint": "8.21.0",
     "eslint-config-next": "12.2.3",
-    "prisma": "^4.1.1"
+    "prisma": "^4.1.1",
+    "tailwindcss": "^3.1.7",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.7.4"
+  },
+  "prisma": {
+    "seed": "ts-node prisma/seed.ts"
   }
 }
