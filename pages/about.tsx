@@ -4,7 +4,7 @@
 function About() {
     return (
         <>
-        <h1>Hi</h1>
+        <h1 className="md:max-w-md">Hi</h1>
         <div></div>
         </>
     )
